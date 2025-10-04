@@ -1,5 +1,4 @@
-Data source: https://figshare.com/articles/dataset/Inline_holographic_microscopy_through_a_fibre_imaging_bundle_Fig_5/12410240?utm_source=chatgpt.com&file=22863170
-
+Data source: https://figshare.com/articles/dataset/Inline_holographic_microscopy_through_a_fibre_imaging_bundle_Fig_5/12410240?file=22863170
 
 
 Steps to reproduce:
