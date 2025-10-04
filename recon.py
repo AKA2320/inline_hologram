@@ -33,11 +33,11 @@ def recon():
     I_int_to_use = I_denoised # Use the denoised image for the next step
 
     # 4. Numerical Propagation and Reconstruction
-    lambda_m = 450e-9            # Wavelength in meters
-    pixel_pitch_m = 0.44e-6      # Camera pixel size in meters
-    z_min = 0.0001               # Minimum depth to sweep (meters)
-    z_max = 0.0005               # Maximum depth to sweep (meters)
-    num_z_steps = 50             # Number of depths to sweep
+    lambda_m = 450e-9 # Wavelength in meters
+    pixel_pitch_m = 0.44e-6 # Camera pixel size in meters
+    z_min = 0.0001 # Minimum depth to sweep (meters)
+    z_max = 0.0005 # Maximum depth to sweep (meters)
+    num_z_steps = 50 # Number of depths to sweep
     I = I_int_to_use # Preprocessed (1024, 1280) interferogram
     U0 = I - 0.5 
     # The object wave U0 is approximated as a real field. We cast it to complex:
