@@ -1,4 +1,3 @@
-import matplotlib.pyplot as plt
 import imageio.v3 as iio
 import bm3d
 import numpy as np
@@ -10,8 +9,8 @@ import trimesh
 
 def recon():
     # Step 1: Load Data
-    hologramFile = 'pond/pond hologram.tif'
-    backgroundFile = 'pond/background.tif'
+    hologramFile = 'inline_holography_bundle_fig5/data/pond/pond hologram.tif'
+    backgroundFile = 'inline_holography_bundle_fig5/data/pond/background.tif'
 
     I_pond_raw = iio.imread(hologramFile).astype(np.float32)
     I_bg_raw = iio.imread(backgroundFile).astype(np.float32)
